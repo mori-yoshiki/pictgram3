@@ -71,3 +71,4 @@ gem 'jquery-rails'
 gem 'bcrypt'
 gem 'hirb'
 gem 'hirb-unicode'
+gem "carrierwave"
