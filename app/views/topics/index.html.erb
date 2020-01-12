@@ -28,8 +28,10 @@
             <p class="topic-text">
               <%= topic.description %>
             </p>
-            <% topic.comments.each do |comment| %>
-             <%= comment.content %>
+            <div class= "show-coment">
+              <% topic.comments.each do |comment| %>
+               <%= comment.content %>
+            </div>
             <% end %>
           </div>
         </div>
